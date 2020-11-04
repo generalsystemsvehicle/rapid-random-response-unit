@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "label": "Field1",
+    "fieldType": "text",
+    "noWrap": false,
+    "bold": false,
+    "required": false,
+    "appearsByDefault": false,
+    "findEnabled": false,
+    "allowNewChoices": false,
+    "sortAsGiven": false,
+    "carryChoices": false,
+    "foreignKey": false,
+    "unique": false,
+    "doesDataCopy": false,
+    "fieldHelp": "field help",
+    "audited": false,
+    "numLines": 1,
+    "maxLength": 0,
+    "appendOnly": false,
+    "allowHTML": false,
+    "permissions": [
+      {
+        "role": "Viewer",
+        "permissionType": "View",
+        "permissionId": 1
+      },
+      {
+        "role": "Participant",
+        "permissionType": "None",
+        "permissionId": 0
+      },
+      {
+        "role": "Administrator",
+        "permissionType": "Modify",
+        "permissionId": 5
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "fieldType": "numeric",
+    "label": "numeric",
+    "nowrap": true,
+    "bold": false,
+    "required": false,
+    "appearsByDefault": true,
+    "findEnabled": false,
+    "allowNewChoices": false,
+    "sortAsGiven": true,
+    "carryChoices": true,
+    "foreignKey": false,
+    "unique": false,
+    "doesDataCopy": true,
+    "audited": false,
+    "commaStart": 4,
+    "numberFormat": 0,
+    "doesAverage": false,
+    "doesTotal": true,
+    "blankIsZero": true,
+    "permissions": [
+      {
+        "role": "Viewer",
+        "permissionType": "View",
+        "roleId": 10
+      },
+      {
+        "role": "Participant",
+        "permissionType": "Modify",
+        "roleId": 11
+      },
+      {
+        "role": "Administrator",
+        "permissionType": "Modify",
+        "roleId": 12
+      }
+    ]
+  }
+]

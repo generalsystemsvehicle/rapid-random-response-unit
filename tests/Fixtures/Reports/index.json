@@ -1,0 +1,51 @@
+[
+  {
+    "id": "5",
+    "name": "table-report",
+    "type": "table",
+    "description": "This is Table report.",
+    "query": {
+      "tableId": "bpweef42b",
+      "filter": "{6.CT.'FilterByThisValue'}",
+      "formulaFields": [
+        {
+          "id": -100,
+          "label": "NumericField",
+          "fieldType": "numeric",
+          "formula": "1+1",
+          "decimalPrecision": 4
+        }
+      ],
+      "fields": [
+        7
+      ],
+      "sortBy": [
+        {
+          "fieldId": 28,
+          "order": "ASC"
+        },
+        {
+          "fieldId": 3,
+          "order": "ASC"
+        }
+      ],
+      "groupBy": [
+        {
+          "fieldId": 3,
+          "grouping": "equal-values"
+        }
+      ]
+    },
+    "properties": {
+      "displayOnlyNewOrChangedRecords": true,
+      "columnProperties": [
+        {
+          "fieldId": -100,
+          "labelOverride": "Numeric Field Label"
+        }
+      ]
+    },
+    "usedLast": "2020-09-20T20:23:00.000Z",
+    "usedCount": 7
+  }
+]

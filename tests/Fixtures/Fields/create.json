@@ -1,0 +1,45 @@
+{
+  "id": 123,
+  "label": "Field1",
+  "fieldType": "text",
+  "mode": "",
+  "noWrap": false,
+  "bold": false,
+  "required": false,
+  "appearsByDefault": false,
+  "findEnabled": false,
+  "unique": false,
+  "doesDataCopy": false,
+  "fieldHelp": "field help",
+  "audited": false,
+  "properties": {
+    "primaryKey": false,
+    "foreignKey": false,
+    "numLines": 1,
+    "maxLength": 0,
+    "appendOnly": false,
+    "allowHTML": false,
+    "sortAsGiven": false,
+    "carryChoices": true,
+    "allowNewChoices": false,
+    "formula": "",
+    "defaultValue": ""
+  },
+  "permissions": [
+    {
+      "permissionType": "View",
+      "role": "Viewer",
+      "roleId": 10
+    },
+    {
+      "permissionType": "None",
+      "role": "Participant",
+      "roleId": 11
+    },
+    {
+      "permissionType": "Modify",
+      "role": "Administrator",
+      "roleId": 12
+    }
+  ]
+}

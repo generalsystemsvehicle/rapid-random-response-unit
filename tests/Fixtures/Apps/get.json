@@ -1,0 +1,16 @@
+{
+  "created": "2020-03-27T18:34:12.000Z",
+  "dateFormat": "MM-DD-YYYY",
+  "description": "My first app",
+  "hasEveryoneOnTheInternet": true,
+  "id": "bpqe82s1",
+  "name": "My App",
+  "timeZone": "(UTC-08:00) Pacific Time (US & Canada)",
+  "variables": [
+    {
+      "name": "Variable1",
+      "value": "Value1"
+    }
+  ],
+  "updated": "2020-04-03T19:12:20.000Z"
+}

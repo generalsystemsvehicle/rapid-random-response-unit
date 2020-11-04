@@ -1,0 +1,68 @@
+[
+  {
+    "type": "qb-action",
+    "owner": {
+      "email": "jsmith@quickbase.com",
+      "id": "123456.ab1s",
+      "name": "Juliet Smith"
+    },
+    "isActive": true,
+    "tableId": "bqwriv8bw",
+    "name": "Quick Base Action"
+  },
+  {
+    "type": "webhook",
+    "owner": {
+      "email": "tanderson@quickbase.com",
+      "id": "654321.ab1s",
+      "name": "Thomas A. Anderson"
+    },
+    "isActive": false,
+    "tableId": "bqwriv8bw",
+    "name": "Webhook"
+  },
+  {
+    "type": "email-notification",
+    "owner": {
+      "email": "jsmith@quickbase.com",
+      "id": "123456.ab1s",
+      "name": "Juliet Smith"
+    },
+    "isActive": false,
+    "tableId": "bqwriv8bw",
+    "name": "Notification"
+  },
+  {
+    "type": "subscription",
+    "owner": {
+      "email": "tanderson@quickbase.com",
+      "id": "654321.ab1s",
+      "name": "Thomas A. Anderson"
+    },
+    "isActive": true,
+    "tableId": "bqwriv8bw",
+    "name": "Subscription"
+  },
+  {
+    "type": "reminder",
+    "owner": {
+      "email": "jsmith@quickbase.com",
+      "id": "123456.ab1s",
+      "name": "Juliet Smith"
+    },
+    "isActive": true,
+    "tableId": "bqwriv8bw",
+    "name": "Reminder"
+  },
+  {
+    "type": "automation",
+    "owner": {
+      "email": "tanderson@quickbase.com",
+      "id": "654321.ab1s",
+      "name": "Thomas A. Anderson"
+    },
+    "isActive": true,
+    "tableId": "bqwriv8bw",
+    "url": "https://realm.quickbase.com/ui/automation/qb/db/bqwria893/automations/70eecab9-634f-42d9-9037-9340a1a9e8ce"
+  }
+]

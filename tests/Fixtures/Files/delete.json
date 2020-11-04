@@ -1,0 +1,10 @@
+{
+  "versionNumber": 1,
+  "fileName": "file.pdf",
+  "uploaded": "2019-12-18T08:00:00.000Z",
+  "creator": {
+    "email": "user1@quickbase.com",
+    "id": "123456.ab1s",
+    "name": "user 1"
+  }
+}
