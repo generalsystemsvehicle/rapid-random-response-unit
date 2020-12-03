@@ -2,8 +2,6 @@
 
 namespace GeneralSystemsVehicle\QuickBase\Api;
 
-use GuzzleHttp\Client;
-use Illuminate\Support\Arr;
 use GeneralSystemsVehicle\QuickBase\Guzzle\Api;
 
 class AppEvents extends Api

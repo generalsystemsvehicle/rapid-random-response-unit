@@ -2,8 +2,6 @@
 
 namespace GeneralSystemsVehicle\QuickBase\Api;
 
-use GuzzleHttp\Client;
-use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Config;
 use GeneralSystemsVehicle\QuickBase\Guzzle\Api;
 
